@@ -404,6 +404,19 @@ module.exports = function (grunt) {
             dest: 'bootstrap-<%= pkg.version %>-dist'
           }
         ]
+      },
+      salesforce: {
+        options: {
+          archive: 'bootstrap.bundle',
+          mode: 'zip'
+        },
+        files: [
+          {
+            expand: true,
+            cwd: 'dist/',
+            src: ['**']
+          }
+        ]
       }
     }
 
