@@ -13,3 +13,4 @@ If you want to make any changes to the source (e.g. change the wrapper template)
 ## Todos / Ideas ##
 - Allow integration with Bower so we can include the scoped CSS in a Salesforce Seed App
 - Add remote publshing of bundle to remote Salesforce project
+- Auto-create resource-meta.xml file from template (rather than just including it in repo)

@@ -407,7 +407,7 @@ module.exports = function (grunt) {
       },
       salesforce: {
         options: {
-          archive: 'bootstrap.bundle',
+          archive: 'bootstrap.resource',
           mode: 'zip'
         },
         files: [
